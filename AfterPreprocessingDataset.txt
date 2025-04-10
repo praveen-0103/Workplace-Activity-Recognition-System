@@ -1,0 +1,51 @@
+Paste this snippet into a notebook from our model library to download and unzip your dataset:
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="ZYOGRhwoe1rUxtFygxXI")
+project = rf.workspace("workplace-activity-monitoring").project("workspace-activity-phxoc")
+version = project.version(1)
+dataset = version.download("darknet")
+
+Use this code to download and unzip your dataset via the command line on any *nix machine:
+
+curl -L "https://app.roboflow.com/ds/DBcH3C6cQq?key=nWqVMZSUfc" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+
+The direct link to download your zip file is:
+
+https://app.roboflow.com/ds/DBcH3C6cQq?key=nWqVMZSUfc
+
+Version 2:
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="ZYOGRhwoe1rUxtFygxXI")
+project = rf.workspace("workplace-activity-monitoring").project("workspace-activity-phxoc")
+version = project.version(2)
+dataset = version.download("darknet")
+
+Yolo V8 model:
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="ZYOGRhwoe1rUxtFygxXI")
+project = rf.workspace("workplace-activity-monitoring").project("workspace-activity-phxoc")
+version = project.version(2)
+dataset = version.download("yolov8")
+
+https://app.roboflow.com/ds/axYXCMZldb?key=Eg4ii1HMWj
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="ZYOGRhwoe1rUxtFygxXI")
+project = rf.workspace("workplace-activity-monitoring").project("workspace-activity-phxoc")
+version = project.version(1)
+dataset = version.download("yolov8")
+
+https://app.roboflow.com/ds/oClZXnRGoC?key=SnZ48MqcX5
+                
+                
