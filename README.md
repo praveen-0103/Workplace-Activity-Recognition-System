@@ -1,12 +1,12 @@
 # Workplace-Activity-Recognition-System
 
-##Overview
+## Overview
 The system will be capable of recognizing a wide range of activities such as sitting, standing, walking, lifting, typing, and more.
 The system will provide real-time activity recognition, allowing for immediate feedback and alerts if any unusual or unsafe activities are detected.
 The system will collect and analyze activity data over time, providing insights into employee productivity, and potential areas for improvement.
 The system will be designed with privacy in mind, ensuring that sensitive personal information is not collected or stored.
 
-##Objectives
+## Objectives
 
 
 1. **Enhance Workplace Productivity**  
